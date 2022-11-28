@@ -1,0 +1,105 @@
+*, *::before, *::after{  
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --color-primary: #29465b;
+    --color-succes:rgb(4, 245, 44);
+    --color-warning:rgb(241, 94, 9);
+    --color-danger:rgb(243, 8, 8);
+    --color-danger-variant:rgb(236, 6, 45);
+    --color-white:#fff;
+    --color-light:rgb(65, 55, 55);
+    --color-black:rgb(7, 7, 7);
+    --color-bg:#011C40;
+    --color-bg1:#001126;
+    --color-bg2:#032859;
+
+    --container-widht-lg:76%;
+    --container-widht-md:90%;
+    --container-widht-sm:94%;
+
+    --transition: all 400ms ease;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--color-white);
+    background: var(--color-bg) url(./images/bg-texture.png);
+}
+
+.container{
+    width: var(--container-widht-lg);
+    margin:0 auto;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    color: var(--color-white);
+}
+
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--color-white);
+    color: black;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white); 
+}
+
+.btn-primary{
+    background: var(--color-danger);
+    color: var(--color-white);
+}
+
+/*===============================End Setting======================*/
+ 
